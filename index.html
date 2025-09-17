@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <h1>NANA</h1>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Work</a>
-            <a href="">Resume</a>
-            <a href="">Contact</a>
+        <nav class="container">
+            <h1 class="logo">NANA</h1>
+            <div class="head">
+            <a class="nav" href="#home">Home</a>
+            <a class="nav" href="#about">About</a>
+            <a class="nav" href="#work">Work</a>
+            <a class="nav" href="#resume">Resume</a>
+            <a class="nav" href="#contact">Contact</a>
+        </div>
         </nav>
     </header>
-    <div>
-        <p>Hi my name is NanaHauwa, am a frontend developer</p>
+    <div class="nana">
+        <h1>Hi, I'm Hauwa</h1>
+        <p>Frontend Developer</p>
+        <p></p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis delectus quae odit perferendis! Ipsa veniam consequatur, laborum ab eaque qui!</p>
+        <a class="click" href="">Hire me</a>
+        <a class="talk" href="">Let's talk</a>
     </div>
-    <div>
+    <div class="About">
         <h1>About me</h1>
-        <img height="100" src="/nana.jfif" alt="">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, possimus?</p>
+        <a class="learn" href="">Learn more</a>
     </div>
     <div>
         <h1>Work</h1>
@@ -31,11 +38,21 @@
     <div>
         <h1>Resume</h1>
         <p></p>
+        <a class="resume" href="https://www.google.com">Resume</a>
     </div>
-    <div>
-        <h1>contact me</h1>
+    <div class="contact">
+        <form action=""><h1>Contact me</h1>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your message"></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <p>My contact</p>
         <p>08067936614</p>
+        </div>
     </div>
-    <footer></footer>
+    <footer>
+        
+    </footer>
 </body>
 </html>

@@ -1,0 +1,102 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(26, 25, 25);
+    color: rgb(247, 243, 243);
+}
+.container{
+    /* box-shadow: rgb(238, 238, 215) 0px 2px 8px 0px; */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 1;
+}
+.head {
+    justify-content: space-between;
+    gap: 30px;
+    display: flex;
+    margin: 20px 40px;
+
+}
+a {
+    text-decoration: none;
+}
+.logo{
+    margin-left: 30px;
+}
+.nav:hover{
+    color: peachpuff;
+    transition: 0.5s;
+}
+.click{
+    padding: 10px;
+    border: none;
+    background-color: peachpuff;
+    border-radius: 5px;
+}
+.click:hover{
+    color: rgb(65, 63, 63);
+    transition: 4s;
+}
+.talk{
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: peachpuff;
+}
+.nana{
+    
+}
+/* about */
+.learn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:  peachpuff;
+}
+/* contact */
+.contact{
+    
+}
+form{
+    flex-direction: column;
+    display: block;
+}
+input{
+    padding: 20px;
+    padding-right: 10px;
+
+}
+textarea{
+    padding: 50px;
+}
+footer{
+    background-color: peachpuff;
+    padding: 70px;
+}
+ form input,
+ form textarea {
+     width: 60%;
+     border: 0;
+     outline: none;
+     background: #262626;
+     padding: 15px;
+     margin: 15px 0;
+     color: white;
+     font-size: 18px;
+     border-radius: 6px;
+ }
+ .btn{
+        padding: 10px;
+        border: none;
+        background-color: peachpuff;
+        border-radius: 5px;
+ }
+.resume{
+padding: 10px;
+    border: none;
+    background-color: peachpuff;
+    border-radius: 5px;
+}
+}
+
